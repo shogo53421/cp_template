@@ -7,7 +7,7 @@ long long pow(long long a, long long b, long long m)
 	a %= m;
 	for (int i = 0; i < b; i++)
 	{
-		r *= b;
+		r *= a;
 		r %= m;
 	}
 	return r;
